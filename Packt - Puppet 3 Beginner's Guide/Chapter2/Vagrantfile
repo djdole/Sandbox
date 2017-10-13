@@ -1,0 +1,15 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+  config.vm.hostname = "sandbox"
+  config.vm.box = "vivid32"
+  config.vm.synced_folder ".", "/home/vagrant/workspace"
+
+#  config.vm.provision "shell", inline: <<-SHELL
+#    sudo apt-get update
+#    sudo apt-get install -y apache2
+#    sudo echo dev > /etc/hostname
+#  SHELL
+
+end

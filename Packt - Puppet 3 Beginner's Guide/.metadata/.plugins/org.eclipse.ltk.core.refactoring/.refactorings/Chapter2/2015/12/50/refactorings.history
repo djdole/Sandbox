@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Chapter2/modules/apache2/files/www.conf&apos; to &apos;www.pp&apos;" description="Rename resource &apos;www.conf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="modules/apache2/files/www.conf" name="www.pp" stamp="1449800840408" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Chapter2/modules/apache2/files/www.pp&apos; to &apos;www.conf&apos;" description="Rename resource &apos;www.pp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="modules/apache2/files/www.pp" name="www.conf" stamp="1449800883996" updateReferences="true"/>
+</session>

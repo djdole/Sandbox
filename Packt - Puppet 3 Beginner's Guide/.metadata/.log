@@ -1,0 +1,459 @@
+!SESSION 2015-12-07 13:48:08.808 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -data /home/djdole/puppet/Packt - Puppet 3 Beginner's Guide -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:02.870
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///m'
+  }
+}<<<
+Document event: offset: 193, length: 0, timestamp: 175
+text:>m<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:03.007
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///mo'
+  }
+}<<<
+Document event: offset: 194, length: 0, timestamp: 176
+text:>o<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:03.478
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///mob'
+  }
+}<<<
+Document event: offset: 195, length: 0, timestamp: 177
+text:>b<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:04.054
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///mo'
+  }
+}<<<
+Document event: offset: 195, length: 1, timestamp: 178
+text:><
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:04.293
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///mod'
+  }
+}<<<
+Document event: offset: 195, length: 0, timestamp: 179
+text:>d<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:04.432
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///modu'
+  }
+}<<<
+Document event: offset: 196, length: 0, timestamp: 180
+text:>u<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:04.595
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///modul'
+  }
+}<<<
+Document event: offset: 197, length: 0, timestamp: 181
+text:>l<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:04.717
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///module'
+  }
+}<<<
+Document event: offset: 198, length: 0, timestamp: 182
+text:>e<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:04.948
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///modules'
+  }
+}<<<
+Document event: offset: 199, length: 0, timestamp: 183
+text:>s<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:48:06.082
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///modules/'
+  }
+}<<<
+Document event: offset: 200, length: 0, timestamp: 184
+text:>/<
+
+
+
+!ENTRY org.apache.log4j 4 0 2015-12-10 18:55:00.948
+!MESSAGE org.eclipse.xtext.ui.editor.model.DocumentPartitioner  - Detected unexpected state in document partitioner. Please file a bug with the following information attached:
+Document content after the event was applied:
+>>>class www {
+  include apache2
+  service { 'apache2':
+    ensure => running,
+    require => Package['apache2'],
+  }
+  
+  file { '/etc/apache2/sites-available/www.conf':
+    source => 'puppet:///modules/apache2/files/www.conf',
+    n
+  }
+}<<<
+Document event: offset: 230, length: 0, timestamp: 213
+text:>n<
+
+
+
+!ENTRY org.eclipse.ui 4 0 2015-12-10 19:00:45.772
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Argument not valid)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4422)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:9820)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7821)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4854)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4933)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:582)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:571)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:567)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:227)
+	at org.eclipse.xtext.ui.editor.XtextSourceViewer.updateTextListeners(XtextSourceViewer.java:120)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3473)
+	at org.eclipse.jface.text.TextViewer.initializeWidgetContents(TextViewer.java:3520)
+	at org.eclipse.jface.text.TextViewer.setVisibleDocument(TextViewer.java:3559)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.setVisibleDocument(ProjectionViewer.java:717)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.executeReplaceVisibleDocument(ProjectionViewer.java:778)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.replaceVisibleDocument(ProjectionViewer.java:766)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.reinitializeProjection(ProjectionViewer.java:1239)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.catchupWithProjectionAnnotationModel(ProjectionViewer.java:1010)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.access$5(ProjectionViewer.java:955)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer$1.run(ProjectionViewer.java:913)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+
+!ENTRY org.eclipse.ui 4 0 2015-12-10 19:00:46.507
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Argument not valid)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4422)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:9820)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7821)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4854)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4933)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:582)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:571)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:567)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:227)
+	at org.eclipse.xtext.ui.editor.XtextSourceViewer.updateTextListeners(XtextSourceViewer.java:120)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3496)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:972)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:954)
+	at org.eclipse.jface.text.source.AnnotationPainter.access$1(AnnotationPainter.java:948)
+	at org.eclipse.jface.text.source.AnnotationPainter$1.run(AnnotationPainter.java:1087)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+
+!ENTRY org.eclipse.ui 4 0 2015-12-10 19:00:48.124
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Argument not valid)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4422)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:9820)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7821)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4854)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4933)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:582)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:571)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:567)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:227)
+	at org.eclipse.xtext.ui.editor.XtextSourceViewer.updateTextListeners(XtextSourceViewer.java:120)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3473)
+	at org.eclipse.jface.text.TextViewer.initializeWidgetContents(TextViewer.java:3520)
+	at org.eclipse.jface.text.TextViewer.setVisibleDocument(TextViewer.java:3559)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.setVisibleDocument(ProjectionViewer.java:717)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.executeReplaceVisibleDocument(ProjectionViewer.java:778)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.replaceVisibleDocument(ProjectionViewer.java:766)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.reinitializeProjection(ProjectionViewer.java:1239)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.catchupWithProjectionAnnotationModel(ProjectionViewer.java:1010)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.access$5(ProjectionViewer.java:955)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer$1.run(ProjectionViewer.java:913)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+
+!ENTRY org.eclipse.ui 4 0 2015-12-10 19:00:48.131
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Argument not valid)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4422)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:9820)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7821)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4854)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4933)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:582)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:571)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:567)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:227)
+	at org.eclipse.xtext.ui.editor.XtextSourceViewer.updateTextListeners(XtextSourceViewer.java:120)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3496)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:972)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:954)
+	at org.eclipse.jface.text.source.AnnotationPainter.access$1(AnnotationPainter.java:948)
+	at org.eclipse.jface.text.source.AnnotationPainter$1.run(AnnotationPainter.java:1087)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+!SESSION 2016-02-24 10:32:42.788 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-24 10:32:45.300
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2016-02-24 12:00:16.416 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -data /home/djdole/study/Packt - Puppet 3 Beginner's Guide -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-02-24 12:00:18.738
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
