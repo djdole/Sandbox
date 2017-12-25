@@ -1,5 +1,5 @@
-node 'Lappy' {
-  package { 'virtualbox':
+node 'default' {
+  package { 'nginx':
     ensure => installed,
   }
 }
